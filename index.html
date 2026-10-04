@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Filippo Barbieri</title>
+    <link href="static/main.css" rel="stylesheet">
+    <link href="static/favicon.png" rel="icon" type="image/png">
+    <meta name="author" content="Filippo Barbieri">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Filippo Barbieri&#39;s personal website">
+    <meta name="keywords" content="filippo, barbieri, developer, programmatore, sviluppatore">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <div class="content-container">
+            <h1>Hello, I'm Filippo Barbieri</h1>
+            <p>I am a passionate Computer Science student, recently graduated from the University of Verona, always looking for new knowledge and skills. I also spent an Erasmus period at the University of Las Palmas de Gran Canaria. In my spare time, I enjoy going to the gym and playing drums.</p>
+        </div>
+    </section>
+    
+    <section id="skills" class="section">
+        <div class="content-container">
+            <h2>Skills</h2>
+            <p>Proficient in programming languages such as C, C++, Java and Rust, also I have solid experience in the use of SQL and NoSQL databases. I have developed in-depth knowledge of algorithms, data structures and competitive programming, acquiring advanced problem-solving skills.</p>
+        </div>
+    </section>
+    
+    <section id="projects" class="section">
+        <div class="content-container">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project">
+                    <h3>WebAssembly integration on Turing Arena Light</h3>
+                    <p>This project involves integrating WebAssembly evaluators into the Turing Arena Light project.</p>
+                    <a href="https://github.com/romeorizzi/TALight/pull/7" target="_blank" class="btn">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>Passport reservation system</h3>
+                    <p>University project simulating passport issuance and renewal paperwork management system.</p>
+                    <a href="https://github.com/Barba02/GestionePassaporti" target="_blank" class="btn">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>Forza 4</h3>
+                    <p>A game developed using Linux system calls, in which players interact with the system through a command-line interface.</p>
+                    <a href="https://github.com/Barba02/F4" target="_blank" class="btn">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="download" class="section">
+        <div class="content-container">
+            <h2>Download</h2>
+            <a href="static/CV.pdf" target="_blank" class="btn">Curriculum Vitae</a>
+            <a href="static/thesis.pdf" target="_blank" class="btn">Bachelor Thesis</a>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <div class="content-container">
+            <h2>Contact Me</h2>
+            <p>Contact details are in my CV.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <year></year> Filippo Barbieri. All rights reserved.</p>
+        <script>
+            const currentYear = new Date().getFullYear();
+            document.querySelector('year').innerHTML = currentYear;
+        </script>
+    </footer>
+</body>
+</html>
+
